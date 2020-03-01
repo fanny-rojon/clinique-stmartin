@@ -24,6 +24,8 @@ font-family: 'Open Sans';
 
 .banner {
   height: 100vh;
+  widows: 100vh;
+  /*display: grid;*/
   background-image: linear-gradient(rgba(5, 47, 77,0.8),rgba(5, 47, 77,0.5)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
   position: relative;
   /*display: inline-block;*/
@@ -47,17 +49,11 @@ font-family: 'Open Sans';
 
 .banner-content {
   margin: auto;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  height: 30%;
-  width: 50%;
-  margin: -15% 0 0 -25%;
   text-align: center;
-/*  display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
   /*vertical-align: middle;*/
 }
 

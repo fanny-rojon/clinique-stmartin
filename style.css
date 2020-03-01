@@ -1,3 +1,125 @@
 /*Stylesheet
-font-family: 'Roboto', ;
-font-family: 'Lato', ;*/
+font-family: 'Open Sans', ;*/
+
+/*dark-blue: #0D3051;*/
+/*dark-blue: #02162E;*/
+/*light-blue: #399FD7*/
+
+body {
+ margin: 0 auto;
+font-family: 'Open Sans';
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.white {
+  color: #FAFAFA;
+ }
+
+.blue {
+  color: #399FD7;
+}
+
+.banner {
+  height: 100vh;
+  background-image: linear-gradient(rgba(5, 47, 77,0.8),rgba(5, 47, 77,0.5)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
+  position: relative;
+  /*display: inline-block;*/
+ }
+
+.logo {
+  padding: 20px;
+}
+
+#neuro {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#hopital {
+  font-size: 11px;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.banner-content {
+  margin: auto;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+  text-align: center;
+/*  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+  /*vertical-align: middle;*/
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 78px;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.footer {
+  background-color: #FAFAFA;
+  margin: 0 auto;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 12px;
+  margin: 0;
+  padding: 10px 10px;
+}
+
+/*Media Queries*/
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+

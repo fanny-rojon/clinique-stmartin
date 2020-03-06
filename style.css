@@ -17,7 +17,50 @@ font-family: 'Work Sans';*/
   color: #399FD7;
 }
 
-html, body {
+/* Navbar */
+.navbar {
+  background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
+  font-family: 'Work Sans';
+}
+
+.navbar h3 {
+  color: #FAFAFA;
+  font-size: 26px;
+  padding: 0 10px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.navbar p {
+  color: #FAFAFA;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.navbar a {
+  color: #FAFAFA !important;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0;
+  font-weight: 300;
+
+}
+.navbar-nav a:hover {
+  color: #FAFAFA !important;
+  opacity: 80%;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 0;
+  font-weight: 300;
+
+}
+
+
+
+
+/*html, body {
   height: 100%;
   margin: 0 auto;
 }
@@ -36,19 +79,6 @@ body {
   padding: 20px 10px;
 }
 
-.navbar h3 {
-  font-size: 26px;
-  padding: 0 10px;
-  margin: 0;
-  font-weight: 500;
-}
-
-.navbar p {
-  font-size: 16px;
-  padding: 0 10px;
-  margin: 0;
-  font-weight: 300;
-}
 
 .menu ul {
   display: flex;
@@ -87,7 +117,7 @@ body {
   list-style: none;
   font-size: 14px;
   font-weight: 300;
-}
+}*/
 
 
 
@@ -100,20 +130,10 @@ body {
 
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
 
 
 
@@ -140,82 +160,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  background-image: linear-gradient(rgb(14, 113, 148, 0.5),rgb(14, 113, 148, 0.5)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
-  height: 100vh;
-  font-family: 'Work Sans';
-}
-
-.logo {
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-
-.banner-content {
-  text-align: center;
-  padding-top: 100px;
-}
-
-#neuro {
-  margin-top: 0;
-  font-size: 78px;
-  font-weight: bold;
-  letter-spacing: 6px;
-}
-
-#hopital {
-  margin-top: 0;
-  font-size: 16px;
-  font-weight: lighter;
-  letter-spacing: 2px;
-}
-
-h3 {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  font-size: 11px;
-  margin: 0;
-  padding: 5px 0;
-}
-
-
-
-
-.footer {
-  background-color: #FAFAFA;
-  margin: 0 auto;
-}
-
-p {
-  font-weight: lighter;
-  font-size: 12px;
-  margin: 0;
-  padding: 10px 10px;
-}
-*/
 
 
 

@@ -17,9 +17,15 @@ font-family: 'Work Sans';*/
   color: #399FD7;
 }
 
-body {
+html, body {
+  height: 100%;
   margin: 0 auto;
- }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 .navbar {
   width: 100%;
@@ -57,7 +63,12 @@ body {
   font-weight: 300;
 }
 
+.content {
+  flex: 1 0 auto;
+}
+
 .footer {
+  flex-shrink: 0;
   width: 100%;
   background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
   font-family: 'Work Sans';

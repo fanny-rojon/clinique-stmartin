@@ -22,6 +22,7 @@ body {
  }
 
 .navbar {
+  width: 100%;
   display: flex;
   background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
   font-family: 'Work Sans';
@@ -56,9 +57,26 @@ body {
   font-weight: 300;
 }
 
+.footer {
+  width: 100%;
+  background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
+  font-family: 'Work Sans';
+  color: #FAFAFA;
+  padding: 20px 10px;
+}
 
+.contact {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
 
-
+.contact li {
+  padding: 0 10px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+}
 
 
 

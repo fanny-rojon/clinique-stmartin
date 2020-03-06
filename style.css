@@ -26,7 +26,7 @@ font-family: 'Work Sans';*/
 .navbar h3 {
   color: #FAFAFA;
   font-size: 26px;
-  padding: 0 10px;
+  padding: 0;
   margin: 0;
   font-weight: 500;
 }
@@ -34,15 +34,19 @@ font-family: 'Work Sans';*/
 .navbar p {
   color: #FAFAFA;
   font-size: 16px;
-  padding: 0 10px;
+  padding: 0;
   margin: 0;
   font-weight: 300;
+}
+
+.navbar li {
+  padding: 0 15px;
 }
 
 .navbar a {
   color: #FAFAFA !important;
   font-size: 16px;
-  padding: 5px 10px;
+  padding: 5px;
   margin: 0;
   font-weight: 300;
 
@@ -51,12 +55,17 @@ font-family: 'Work Sans';*/
   color: #FAFAFA !important;
   opacity: 80%;
   font-size: 16px;
-  padding: 0 10px;
+  padding: 0;
   margin: 0;
   font-weight: 300;
-
 }
 
+.mr-auto {
+  margin: 0 !important;
+}
+.navbar-collapse {
+ justify-content: flex-end !important;
+}
 
 
 

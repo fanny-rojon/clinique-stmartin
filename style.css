@@ -92,6 +92,9 @@ footer .section {
   padding: 0 40px;
 }
 
+footer a {
+  color: #FAFAFA !important;
+}
 
 
 /*html, body {

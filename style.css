@@ -21,7 +21,7 @@ font-family: 'Work Sans';*/
 .navbar {
   background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
   font-family: 'Work Sans';
-  padding-bottom: 0;
+  padding: 5px 10px;
 }
 
 .navbar h3 {
@@ -91,6 +91,7 @@ footer {
 footer .section {
   padding: 0 40px;
 }
+
 
 
 /*html, body {

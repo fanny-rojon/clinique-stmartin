@@ -108,13 +108,14 @@ font-family: 'Work Sans';*/
 .dropdown-menu .dropdown-item {
   display: inline-block;
   width: 100%;
-  padding-left: 22px;
+  font-size: 15px;
+  padding: 8px 22px;
 }
 
-.container .dropdown .dropdown-menu a:hover
-{
+.container .dropdown .dropdown-menu a:hover {
+  font-size: 15px;
   color: black !important;
-  padding-left: 22px;
+  padding: 8px 22px;
   background-color: none;
 }
 

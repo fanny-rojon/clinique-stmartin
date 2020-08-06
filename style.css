@@ -30,12 +30,12 @@ font-family: 'Work Sans';*/
 
 .content-container {
   width: 80%;
-
 }
 
 /* Navbar */
 .navbar {
-  background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
+  background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("./neurones_cropped-min.jpg");
+  background-position: left top;
   font-family: 'Work Sans';
   padding: 5px 10px;
 }
@@ -94,7 +94,8 @@ font-family: 'Work Sans';*/
 
 @media (min-width: 768px) {
     .dropdown-menu {
-      background-image: linear-gradient(rgb(14, 113, 148, 0.9),rgb(14, 113, 148, 0.9)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
+      background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("./neurones_cropped-min.jpg");
+      background-position: top center;
       border-color: rgba(255, 255, 255, 0);
     }
 }
@@ -136,7 +137,8 @@ font-family: 'Work Sans';*/
 }
 
 footer {
-  background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
+  background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("./neurones_cropped-min.jpg");
+  background-position: left bottom;
   font-family: 'Work Sans';
   color: #FAFAFA !important;
   font-size: 12px;

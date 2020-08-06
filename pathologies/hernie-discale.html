@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- <link rel="stylesheet" href="bootstrap.scss"> -->
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
@@ -20,7 +20,7 @@
   <body>
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-light">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../index.html">
           <h3>NEUROCHIRURGIE</h3>
           <p>HOPITAL PRIVÉ SAINT-MARTIN CAEN</p>
         </a>
@@ -40,11 +40,10 @@
                 Pathologies traitées
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./pathologies/hernie-discale.html">Hernie discale cervicale</a>
+                <a class="dropdown-item" href="#">Hernie discale</a>
                 <a class="dropdown-item" href="#">Canal cervical étroit</a>
                 <a class="dropdown-item" href="#">Canal lombaire étroit</a>
                 <a class="dropdown-item" href="#">Fractures du rachis</a>
-                <a class="dropdown-item" href="#">Hernie discale lombaire</a>
                 <a class="dropdown-item" href="#">Métastases vertébrales</a>
                 <a class="dropdown-item" href="#">Spondylolisthésis</a>
                 <!-- <div class="dropdown-divider"></div> -->
@@ -63,8 +62,57 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-def-tab" data-toggle="pill" href="#pills-def" role="tab" aria-controls="pills-def" aria-selected="true">Définition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-symptomes-tab" data-toggle="pill" href="#pills-symptomes" role="tab" aria-controls="pills-symptomes" aria-selected="false">Symptômes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-imagerie-tab" data-toggle="pill" href="#pills-imagerie" role="tab" aria-controls="pills-imagerie" aria-selected="false">Imageries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-traitements-c-tab" data-toggle="pill" href="#pills-traitements-c" role="tab" aria-controls="pills-traitements-c" aria-selected="false">Traitements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-resultats-tab" data-toggle="pill" href="#pills-resultats" role="tab" aria-controls="pills-resultats" aria-selected="false">Résultats</a>
+              </li>
+            </ul>
+            <div class="tab-content content-container" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-def" role="tabpanel" aria-labelledby="pills-def-tab">
+                <h4>Définition</h4>
+                <p>Une hernie discale se définie comme l’apparition d’une masse discale protrusive, sortie de son espace discale habituel, postérieure ou postéro-latérale.</p>
+                <img src="image1.jpg" class="img-fluid resize-img" alt="Responsive image">
+                <img src="image2.jpg" class="img-fluid resize-img" alt="Responsive image">
+                <p>Exemple : Hernie discale L5S1 gauche</p>
+              </div>
+              <div class="tab-pane fade" id="pills-symptomes" role="tabpanel" aria-labelledby="pills-symptomes-tab">
+                <h4>Symptômes</h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Hernie discale médiane : Douleurs lombaires en barre</li>
+                  <li class="list-group-item">Hernie discale médio-latérale : Douleurs lombaires et radiculaires</li>
+                  <li class="list-group-item">Hernie discale latérale : Douleurs radiculaires</li>
+                  <li class="list-group-item">Hernie discale compliquée : hyperalgie et/ou déficit radiculaire</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="pills-imagerie" role="tabpanel" aria-labelledby="pills-imagerie-tab">
+                <h4>Imageries</h4>
+              </div>
+              <div class="tab-pane fade" id="pills-traitements-c" role="tabpanel" aria-labelledby="pills-traitements-c-tab">
+                <h4>Traitements Médicaux et Chirurgicaux</h4>
+              </div>
+              <!-- <div class="tab-pane fade" id="pills-traitements-m" role="tabpanel" aria-labelledby="pills-traitements-m-tab">Traitements Chirurgicaux</div> -->
+              <div class="tab-pane fade" id="pills-resultats" role="tabpanel" aria-labelledby="pills-resultats-tab">
+                <h4>Résultats et facteurs pronostics évolutifs</h4>
+              </div>
+            </div>
           </div>
+          <!-- narrower column -->
+          <!-- <div class="col-md-4 mb-4">
+
+            sidebar links
+          </div> -->
         </div>
       </div>
     </div>

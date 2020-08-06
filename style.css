@@ -17,6 +17,8 @@ font-family: 'Work Sans';*/
   color: #399FD7;
 }
 
+/*Navs*/
+
 .nav-item .active {
   color: #FAFAFA !important;
   background-color: #236c8e !important;
@@ -24,6 +26,11 @@ font-family: 'Work Sans';*/
 
 .nav-item a {
  color: #236c8e !important;
+}
+
+.content-container {
+  width: 80%;
+
 }
 
 /* Navbar */

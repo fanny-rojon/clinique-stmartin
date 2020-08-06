@@ -17,6 +17,15 @@ font-family: 'Work Sans';*/
   color: #399FD7;
 }
 
+.nav-item .active {
+  color: #FAFAFA !important;
+  background-color: #236c8e !important;
+}
+
+.nav-item a {
+ color: #236c8e !important;
+}
+
 /* Navbar */
 .navbar {
   background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
@@ -76,7 +85,7 @@ font-family: 'Work Sans';*/
   /*color: black;*/
 }
 
-@media (min-width: 766px) {
+@media (min-width: 768px) {
     .dropdown-menu {
       background-image: linear-gradient(rgb(14, 113, 148, 0.9),rgb(14, 113, 148, 0.9)), url("https://image.shutterstock.com/z/stock-photo-conceptual-illustration-of-neuron-cells-with-glowing-link-knots-in-abstract-dark-space-high-576832348.jpg");
       border-color: rgba(255, 255, 255, 0);
@@ -147,6 +156,15 @@ footer a {
   color: #FAFAFA !important;
 }
 
+/*NAV*/
+
+/*.nav-item a {
+ color: #236c8e !important;
+}*/
+
+.resize-img {
+  width: 30%;
+}
 
 /*html, body {
   height: 100%;
@@ -209,42 +227,10 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.content {
+  margin-top: 100px;
+  text-align: center;
+}
 
 
 

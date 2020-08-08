@@ -33,6 +33,11 @@ font-family: 'Work Sans';*/
   margin: 0 auto;
 }
 
+.tab-symptomes {
+  width: 60%;
+  margin: 0 auto;
+}
+
 /* Navbar */
 .navbar {
   background-image: linear-gradient(rgb(14, 113, 148, 0.8),rgb(14, 113, 148, 0.8)), url("./neurones_cropped-min.jpg");

@@ -28,9 +28,9 @@ font-family: 'Work Sans';*/
  color: #236c8e !important;
 }
 
-.content-container {
-  /*width: 80%;*/
-  /*margin: 0 50px;*/
+.tab-content {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* Navbar */

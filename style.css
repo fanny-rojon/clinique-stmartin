@@ -29,13 +29,19 @@ font-family: 'Work Sans';*/
 }
 
 .tab-content {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {
+  .tab-content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  }
   .tab-symptomes {
     width: 60%;
     margin: 0 auto;
